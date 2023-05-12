@@ -8,9 +8,9 @@ There is a data frame to show the details of data.
 
 There are two check-boxes: `Show Histograms` and `Show Scatters`. If click these check-boxes, the associated plots will display on the page.
 
-# Code explaination: `app.py`
+# Code explaination: 
 
-## Data Preprocess
+## `data_preprocess.py`
 
 1. Clean data:
     * Data type
@@ -21,7 +21,11 @@ There are two check-boxes: `Show Histograms` and `Show Scatters`. If click these
 2. Enrich data:
     * Break down the `model` into `make` and `model`
 
-## Analysis by plots
+## `app.py`
+
+### Display data frame
+
+### Check-boxes
 
 ### Histogram
 
@@ -40,6 +44,7 @@ $ tree
 .
 ├── README.md
 ├── app.py
+├── data_preprocess.py
 ├── vehicles_us.csv
 └── notebooks
     └── EDA.ipynb
